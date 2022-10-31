@@ -98,3 +98,19 @@ Query OK, 3 rows affected (0.03 sec)
 Records: 3  Duplicates: 0  Warnings: 0
 
 mysql>
+
+=================================================================================================
+#UC4-Retrieving(Display) all the employee payroll data that is added to payroll service database
+=================================================================================================
+
+mysql> SELECT * FROM employee_payroll;                                  #retrieve all the data from the
++----+--------+---------+------------+
+| id | name   | Salary  | Start      |
++----+--------+---------+------------+
+|  1 | Tushar | 3000000 | 2022-11-08 |
+|  2 | Yash   | 1000000 | 2020-05-12 |
+|  3 | Aniket | 2000000 | 2021-12-18 |
++----+--------+---------+------------+
+3 rows in set (0.00 sec)
+
+mysql>
